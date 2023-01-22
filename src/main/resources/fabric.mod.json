@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "farclouds",
+  "version": "${version}",
+  "name": "Far Clouds",
+  "description": "Makes clouds render to a greater distance",
+  "authors": [
+    "CyborgCabbage",
+    "Turnip Labs (Template)"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "mixins": [
+      "farclouds.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.3"
+  }
+}
